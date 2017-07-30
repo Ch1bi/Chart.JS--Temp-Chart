@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The weather for the week</title>
+    <meta charset="utf-8" />
+
+    <!--the library - chart.js-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js">
+      
+</script>
+
+    <style>
+    </style>
+</head>
+<body>
+   <canvas id="myChart"></canvas>
+
+<script>
+
+    //get the id of the "myChart div and append the chart and data"
+var ctx = document.getElementById('myChart').getContext('2d');
+
+//we define the chart properties - type of line, data, etc.
+var myChart = new Chart(ctx, {
+  type: 'line',
+
+  //the x-axis
+  data: {
+    labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturay', 'Sunday'],
+
+    //our data with labels and colors
+    datasets: [{
+      label: 'The weather - Highs',
+      data: [81, 88, 90, 90, 84, 84, 81],
+      backgroundColor:  "rgba(255,153,0,0.4)"
+    }, {
+      label: 'The weather - Lows',
+      data: [67, 71, 72, 72, 72, 73, 68],
+      backgroundColor: "rgba(0,100,255,0.8"
+    }]
+  }
+});
+
+</script>
+</body>
+</html>
