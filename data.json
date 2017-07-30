@@ -1,0 +1,48 @@
+[
+  {
+    "day": "Sunday",
+    "high": 81,
+    "low": 67,
+    "index": 0
+  },
+  {
+    "day": "Monday",
+    "high": 88,
+    "low": 71,
+    "index": 1
+  },
+  {
+    "day": "Tuesday",
+    "high": 90,
+    "low": 72,
+    "index": 2
+  },
+  {
+    "day": "Wednesday",
+    "high": 90,
+    "low": 72,
+    "index": 3
+  },
+
+   {
+    "day": "Thursday",
+    "high": 84,
+    "low": 72,
+    "index": 4
+  },
+
+    {
+    "day": "Friday",
+    "high": 84,
+    "low": 73,
+    "index": 5
+  },
+
+     {
+    "day": "Saturday",
+    "high": 81,
+    "low": 68,
+    "index": 6
+  }
+  
+]
